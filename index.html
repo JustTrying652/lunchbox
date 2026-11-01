@@ -1,706 +1,585 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
 
 <head>
-	<title>Lunch Box</title>
-	<!-- Meta tag Keywords -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8" />
-	<meta name="keywords" content="Lunch Box, fast food, french fries, fried chicken, chapati, milkshakes, takeaway, local restaurant" />
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
+  <title>Lunch Box</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="keywords" content="Lunch Box, fast food, french fries, fried chicken, chapati, milkshakes, takeaway, local restaurant">
 
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
-	<!-- //Meta tag Keywords -->
-
-	<!-- Custom-Files -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Bootstrap-Core-CSS -->
-	<link href="css/login_overlay.css" rel='stylesheet' type='text/css' />
-
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-    <link rel="stylesheet" href="css/custom.css" type="text/css" media="all" />
-	<!-- Style-CSS -->
-	<link rel="stylesheet" href="css/fontawesome-all.css">
-	<!-- Font-Awesome-Icons-CSS -->
-	<!-- //Custom-Files -->
-
-	<!-- Web-Fonts -->
-	<link href="//fonts.googleapis.com/css?family=Oxygen:300,400,700&amp;subset=latin-ext" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
-	    rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Pacifico&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
-
-	
-	<!-- //Web-Fonts -->
-
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/login_overlay.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/fontawesome-all.css">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
 </head>
 
 <body>
-	<div class="mian-content">
-		<!-- header -->
-		<header>
-			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="logo text-left">
-					<h1>
-						<a class="navbar-brand" href="index.html">
-							<img src="images/logo.png" alt="" class="img-fluid">Lunch Box</a>
-					</h1>
-				</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-				    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon">
+  <div class="mian-content">
+    <!-- header -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" aria-label="Main">
+        <div class="lb-logo">
+          <a class="navbar-brand" href="index.html">
+            <img src="images/logo.png" alt="" class="img-fluid"><span>Lunch Box</span>
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-lg-auto text-lg-right text-center align-items-lg-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only"> (current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">More</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#products">Menu Favourites</a>
+                <a class="dropdown-item" href="#services">Services</a>
+                <a class="dropdown-item" href="#news">News &amp; Offers</a>
+                <a class="dropdown-item" href="#faqs">FAQs</a>
+                <a class="dropdown-item" href="about.html#team">Our Team</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link nav-order" href="#order">Order Now</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- //header -->
 
-					</span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-lg-auto text-lg-right text-center">
-						<li class="nav-item active">
-							<a class="nav-link" href="index.html">Home
-								<span class="sr-only">(current)</span>
-							</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="about.html">About Us</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-							    aria-haspopup="true" aria-expanded="false">
-								More
-							</a>
-							<div class="dropdown-menu text-lg-left text-center" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item scroll" href="#services">Services</a>
-								<a class="dropdown-item scroll" href="#products" title="">Menu Favourites</a>
-								<a class="dropdown-item scroll" href="#news" title="">News & Offers</a>
-								<a class="dropdown-item" href="about.html" title="">Our Team</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="gallery.html">Gallery</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="contact.html">Contact Us</a>
-						</li>
-					</ul>
-					<!-- menu button -->
-					<div class="menu">
-						<a href="#" class="navicon"></a>
-						<div class="toggle">
-							<ul class="toggle-menu list-unstyled">
-								<li>
-									<a href="index.html">Home Page</a>
-								</li>
-								<li>
-									<a class="scroll" href="#products">Menu Favourites</a>
-								</li>
-								<li>
-									<a href="gallery.html">Food Gallery</a>
-								</li>
-								<li>
-									<a class="scroll" href="#order">Place an Order</a>
-								</li>
-								<li>
-									<a class="scroll" href="#faqs">FAQs</a>
-								</li>
-								<li>
-									<a href="contact.html">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<!-- //menu button -->
-				</div>
-			</nav>
-		</header>
-		<!-- //header -->
+    <!-- hero -->
+    <div id="slider-main">
+      <div class="banner-text-agile">
+        <div class="container">
+          <h1>The taste of home away from home</h1>
+          <p>We offer a wide variety of delicious french fries, milkshakes and more!</p>
+          <div class="hero-actions">
+            <a class="lb-btn" href="#order">Place an Order</a>
+            <button type="button" class="lb-btn lb-btn--ghost" data-toggle="modal" data-target=".bd-example-modal-lg">Watch Our Video</button>
+          </div>
+        </div>
+      </div>
+      <button id="prev" aria-label="Previous slide"><i class="fas fa-chevron-left"></i></button>
+      <div id="slider"></div>
+      <button id="next" aria-label="Next slide"><i class="fas fa-chevron-right"></i></button>
+      <div id="circles"></div>
+    </div>
 
-		<!-- banner -->
-		<!-- main image slider container -->
-		<div id="slider-main">
-			<div class="banner-text-agile text-center">
-				<div class="container">
-					<h3 class="text-white font-weight-bold mb-3">The taste of home away from home</h3>
-					<p class="text-light">We offer a wide variety of delicious french fries, milkshakes and more!</p>
-					<button type="button" class="btn btn-primary button mt-md-5 mt-4" data-toggle="modal" data-target=".bd-example-modal-lg">
-						<span>Watch Our Video</span>
-					</button>
-				</div>
-			</div>
-			<!-- previous button -->
-			<button id="prev">
-				<i class="fas fa-chevron-left"></i>
-			</button>
+    <!-- video modal -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalCenterTitle">Lunch Box</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-0">
+            <iframe src="https://player.vimeo.com/video/58582025" title="Lunch Box video" style="border:none"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //video modal -->
+    <!-- //hero -->
 
-			<!-- image container -->
-			<div id="slider"></div>
+    <!-- category strip -->
+    <div class="lb-strip">
+      <div class="container">
+        <ul class="list-unstyled">
+          <li class="lb-cat">
+            <p>French Fries</p>
+            <img src="images/img1.png" alt="">
+          </li>
+          <li class="lb-cat">
+            <p>Milkshakes</p>
+            <img src="images/img2.png" alt="">
+          </li>
+          <li class="lb-cat">
+            <p>Bananas</p>
+            <img src="images/img3.png" alt="">
+          </li>
+          <li class="lb-cat">
+            <p>Fried Chicken</p>
+            <img src="images/img4.png" alt="">
+          </li>
+          <li class="lb-cat">
+            <p>Chapati</p>
+            <img src="images/img5.png" alt="">
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- //category strip -->
+  </div>
 
-			<!-- next button -->
-			<button id="next">
-				<i class="fas fa-chevron-right"></i>
-			</button>
+  <!-- intro -->
+  <section class="lb-section" id="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 pr-lg-5">
+          <p class="lb-kicker">Brief Description</p>
+          <h2>Welcome to our Lunch Box</h2>
+          <p class="lb-sub">Fast, Fresh and Filling</p>
+          <p>We are a simple, friendly fast food joint serving hot, tasty meals and snacks for everyone. Stop by for a quick bite, grab a takeaway, or sit down and enjoy your lunch with us!</p>
+          <a class="lb-btn lb-btn--outline" href="about.html">Learn More</a>
+        </div>
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <div class="lb-photo">
+            <img src="images/about.png" alt="Food being cooked at Lunch Box">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //intro -->
 
-			<!-- small circles container -->
-			<div id="circles"></div>
+  <!-- quote -->
+  <section class="lb-section lb-quote">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <p class="lb-kicker lb-kicker--light">A few words about our Place</p>
+          <blockquote class="lb-quote-text">
+            <p>Good food doesn't have to be complicated. We cook every order fresh, serve it hot, and keep our prices friendly so you can enjoy a great meal any day of the week.</p>
+          </blockquote>
+          <p class="lb-cite"><strong>Njenga Evans</strong> &middot; Owner &amp; Head Cook</p>
+        </div>
+        <div class="col-lg-5">
+          <img class="lb-quote-img" src="images/cake7.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //quote -->
 
-		</div>
-		<!-- end of main image slider container -->
-		<!-- Modal -->
-		<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h5 class="modal-title text-center" id="exampleModalCenterTitle">Lunch Box</h5>
-						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body p-0">
-						<iframe src="https://player.vimeo.com/video/58582025" style="border:none"></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- //Model -->
-		<!-- //banner -->
+  <!-- services -->
+  <section class="lb-section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 lb-service">
+          <i class="fas fa-fire" aria-hidden="true"></i>
+          <h3>Cooked Fresh</h3>
+          <p>Every meal is prepared fresh when you order, so it reaches your table hot and tasty.</p>
+        </div>
+        <div class="col-md-4 lb-service">
+          <i class="fas fa-shopping-bag" aria-hidden="true"></i>
+          <h3>Quick Takeaway</h3>
+          <p>In a hurry? Order ahead and pick up your food fast, ready to enjoy on the go.</p>
+        </div>
+        <div class="col-md-4 lb-service">
+          <i class="far fa-calendar" aria-hidden="true"></i>
+          <h3>Event Catering</h3>
+          <p>Planning a party or office lunch? We can serve big orders for groups and events.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //services -->
 
-		<!-- banner bottom icons -->
-		<div class="icons-banner-botom">
-			<div class="container">
-				<ul class="list-unstyled my-4">
-					<li class="icons-mkw3ls">
-						<p class="mb-2">French Fries</p>
-						<img src="images/img1.png" class="img-fluid" alt="">
-					</li>
-					<li class="icons-mkw3ls">
-						<p class="mb-2">Milkshakes</p>
-						<img src="images/img2.png" class="img-fluid" alt="">
-					</li>
-					<li class="icons-mkw3ls">
-						<p class="mb-2">Bananas</p>
-						<img src="images/img3.png" class="img-fluid" alt="">
-					</li>
-					<li class="icons-mkw3ls">
-						<p class="mb-2">Fried Chicken</p>
-						<img src="images/img4.png" class="img-fluid" alt="">
-					</li>
-					<li class="icons-mkw3ls">
-						<p class="mb-2">Chapati</p>
-						<img src="images/img5.png" class="img-fluid" alt="">
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!-- //banner bottom icons -->
-	</div>
-	<!-- //main -->
+  <!-- stats -->
+  <section class="lb-section lb-sand">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-5 mb-5 mb-lg-0">
+          <img class="lb-stats-img" src="images/women.png" alt="People at Lunch Box">
+        </div>
+        <div class="col-lg-7 pl-lg-5">
+          <h2 class="mb-4">Lunch Box in Numbers</h2>
+          <div class="row">
+            <div class="col-4">
+              <div class="lb-stat">
+                <p class="counter">1680</p>
+                <p class="lb-stat-label">Meals Served</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="lb-stat">
+                <p class="counter">1200</p>
+                <p class="lb-stat-label">Happy Customers</p>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="lb-stat">
+                <p class="counter">40</p>
+                <p class="lb-stat-label">Menu Items</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //stats -->
 
-	<!-- banner-bottom -->
-	<section class="banner-main-agiles py-5">
-		<div class="banner-bottom-w3layouts" id="about">
-			<div class="container pt-xl-5 pt-lg-3">
-				<div class="row mt-5">
-					<div class="col-lg-6">
-						<p class="text-uppercase">Brief Description</p>
-						<h3 class="aboutright">Welcome to our Lunch Box</h3>
-						<h4 class="aboutright">Fast, Fresh and Filling</h4>
-						<p>We are a simple, friendly fast food joint serving hot, tasty meals and snacks for everyone. Stop by for a quick bite, grab a takeaway, or sit down and enjoy your lunch with us!</p>
-						<button type="button" class="btn btn-primary button mt-md-5 mt-4" onclick="window.location='about.html'">
-							<span>Learn More</span>
-						</button>
-					</div>
-					<div class="col-lg-6 about-img text-lg-enter">
-						<img src="images/about.png" alt="" class="img-fluid">
-					</div>
-				</div>
-			</div>
+  <!-- menu favourites -->
+  <section class="lb-section lb-paper" id="products">
+    <div class="container">
+      <div class="lb-head">
+        <h2>Menu Favourites</h2>
+        <p>Our most loved dishes, made fresh every day.</p>
+      </div>
+      <div class="content-bottom-in">
+        <ul id="flexiselDemo1">
+          <li>
+            <div class="lb-fav">
+              <div class="row align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1 mt-4 mt-lg-0 pr-lg-5">
+                  <h3>Crispy French Fries</h3>
+                  <p class="lb-lede">Golden, crunchy and perfectly salted.</p>
+                  <p>Freshly cut potatoes fried until crispy on the outside and soft on the inside. Enjoy them on their own, with your favourite sauce, or as a side to any meal.</p>
+                  <a href="#order" class="lb-btn">Order Now</a>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 lb-fav-img">
+                  <img src="images/product1.jpg" alt="Crispy French Fries">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lb-fav">
+              <div class="row align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1 mt-4 mt-lg-0 pr-lg-5">
+                  <h3>Fried Chicken</h3>
+                  <p class="lb-lede">Juicy inside, crispy outside.</p>
+                  <p>Seasoned chicken fried to golden perfection and served hot. A real crowd favourite, great with fries or chapati.</p>
+                  <a href="#order" class="lb-btn">Order Now</a>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 lb-fav-img">
+                  <img src="images/product2.jpg" alt="Fried Chicken">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lb-fav">
+              <div class="row align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1 mt-4 mt-lg-0 pr-lg-5">
+                  <h3>Soft Chapati</h3>
+                  <p class="lb-lede">Warm, soft and made the traditional way.</p>
+                  <p>Layered, freshly cooked chapati that goes perfectly with stew, beans or a hearty side. Simple comfort food at its best.</p>
+                  <a href="#order" class="lb-btn">Order Now</a>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 lb-fav-img">
+                  <img src="images/product3.jpg" alt="Soft Chapati">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lb-fav">
+              <div class="row align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1 mt-4 mt-lg-0 pr-lg-5">
+                  <h3>Thick Milkshakes</h3>
+                  <p class="lb-lede">Cold, creamy and full of flavour.</p>
+                  <p>Blended fresh in your favourite flavour. The perfect treat to cool down and finish off your meal.</p>
+                  <a href="#order" class="lb-btn">Order Now</a>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 lb-fav-img">
+                  <img src="images/product4.jpg" alt="Thick Milkshakes">
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="lb-fav">
+              <div class="row align-items-center">
+                <div class="col-lg-5 order-2 order-lg-1 mt-4 mt-lg-0 pr-lg-5">
+                  <h3>Lunch Box Combo</h3>
+                  <p class="lb-lede">A full meal at a friendly price.</p>
+                  <p>Our signature combo brings together a main, a side and a drink in one box. Filling, tasty and ready in minutes.</p>
+                  <a href="#order" class="lb-btn">Order Now</a>
+                </div>
+                <div class="col-lg-7 order-1 order-lg-2 lb-fav-img">
+                  <img src="images/product5.jpg" alt="Lunch Box Combo">
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- //menu favourites -->
 
+  <!-- order -->
+  <section class="lb-section lb-order" id="order">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <h2>Place an Order</h2>
+          <p>Choose your meal and we'll have it ready fresh and hot.</p>
+        </div>
+        <div class="col-lg-8">
+          <form action="#" method="post">
+            <div class="row">
+              <div class="col-sm-6 form-group">
+                <label for="order-meal">Meal</label>
+                <select id="order-meal" required>
+                  <option value="">French Fries</option>
+                  <option value="1">Fried Chicken</option>
+                  <option value="2">Chapati</option>
+                  <option value="2">Lunch Box Combo</option>
+                </select>
+              </div>
+              <div class="col-sm-6 form-group">
+                <label for="order-portion">Portion</label>
+                <select id="order-portion" required>
+                  <option value="">Small</option>
+                  <option value="1">Medium</option>
+                  <option value="2">Large</option>
+                  <option value="2">Family</option>
+                </select>
+              </div>
+              <div class="col-sm-6 form-group">
+                <label for="order-drink">Drink</label>
+                <select id="order-drink" required>
+                  <option value="">Milkshake</option>
+                  <option value="">Soda</option>
+                  <option value="">Fresh Juice</option>
+                  <option value="">Water</option>
+                </select>
+              </div>
+              <div class="col-sm-6 form-group">
+                <label for="order-extras">Extras</label>
+                <select id="order-extras" required>
+                  <option value="">None</option>
+                  <option value="">Extra Sauce</option>
+                  <option value="">Extra Fries</option>
+                  <option value="">Side Salad</option>
+                </select>
+              </div>
+            </div>
+            <input type="submit" value="Order" class="lb-btn lb-btn--dark">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //order -->
 
-		</div>
-		<!-- //banner-bottom-w3layouts -->
-		<div class="some-another text-center pb-5">
-			<div class="container pb-xl-5 pb-lg-3">
-				<i class="fas fa-utensils"></i>
-				<p class="text-uppercase mb-4 mt-2">A few words about our Place</p>
-				<h4 class="aboutright about-right-2">Good food doesn't have to be complicated. We cook every order fresh, serve it hot, and keep our prices friendly so you can enjoy a great meal any day of the week.</h4>
-				<h5 class="text-uppsecase font-weight-bold text-dark mt-4">Njenga Evans
-					<span class="text-secondary font-weight-normal">(Owner & Head Cook)</span>
-				</h5>
-			</div>
-		</div>
-		<!-- cake -->
-		<img src="images/cake7.png" alt="" class="img-fluid cake-style">
+  <!-- news -->
+  <section class="lb-section" id="news">
+    <div class="container">
+      <div class="lb-head">
+        <h2>News &amp; Offers</h2>
+      </div>
+      <div class="row">
+        <article class="col-md-7 lb-news">
+          <a class="lb-news-img" href="single.html" aria-hidden="true" tabindex="-1">
+            <img src="images/news1.jpg" alt="">
+          </a>
+          <p class="lb-date"><a href="single.html">Oct 1st, 2026</a></p>
+          <h3>New combo deals now available every weekday</h3>
+        </article>
+        <article class="col-md-5 lb-news mt-5 mt-md-0">
+          <a class="lb-news-img" href="single.html" aria-hidden="true" tabindex="-1">
+            <img src="images/news2.jpg" alt="">
+          </a>
+          <p class="lb-date"><a href="single.html">Oct 15th, 2026</a></p>
+          <h3>Fresh milkshake flavours have arrived</h3>
+        </article>
+      </div>
+    </div>
+  </section>
+  <!-- //news -->
 
-		<!-- //cake -->
-	</section>
+  <!-- faqs -->
+  <section class="lb-section lb-paper" id="faqs">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h2>Frequently asked questions</h2>
+        </div>
+        <div class="col-lg-8">
+          <ul class="faq lb-faq list-unstyled">
+            <li>
+              <a href="#" title="click here">What are your opening hours?<i class="fas fa-plus"></i></a>
+              <ul class="list-unstyled">
+                <li class="subitem1">
+                  <p>We are open every day for breakfast, lunch and dinner. Visit our contact page for our exact opening and closing times.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" title="click here">Do you offer delivery?<i class="fas fa-plus"></i></a>
+              <ul class="list-unstyled">
+                <li class="subitem1">
+                  <p>Yes, we deliver to customers nearby. Call us or place an order through our website and we will bring your meal to your door.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" title="click here">Can I place a large order for an event?<i class="fas fa-plus"></i></a>
+              <ul class="list-unstyled">
+                <li class="subitem1">
+                  <p>Absolutely. We cater for parties, meetings and office lunches. Contact us a day or two ahead so we can prepare everything fresh for your group.</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" title="click here">What payment methods do you accept?<i class="fas fa-plus"></i></a>
+              <ul class="list-unstyled">
+                <li class="subitem1">
+                  <p>You can pay with cash or mobile money. Ask our team if you need help with payment.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //faqs -->
 
-	<!-- services -->
-	<div class="serives-agile py-5 bg-light border-top" id="services">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="row support-bottom text-center">
-				<div class="col-md-4 support-grid">
-					<i class="far fa-heart"></i>
-					<h5 class="text-dark text-uppercase mt-4 mb-3">Cooked Fresh</h5>
-					<p>Every meal is prepared fresh when you order, so it reaches your table hot and tasty.</p>
-				</div>
-				<div class="col-md-4 support-grid my-md-0 my-4">
-					<i class="fas fa-birthday-cake"></i>
-					<h5 class="text-dark text-uppercase mt-4 mb-3">Quick Takeaway</h5>
-					<p>In a hurry? Order ahead and pick up your food fast, ready to enjoy on the go.</p>
-				</div>
-				<div class="col-md-4 support-grid">
-					<i class="far fa-calendar"></i>
-					<h5 class="text-dark text-uppercase mt-4 mb-3">Event Catering</h5>
-					<p>Planning a party or office lunch? We can serve big orders for groups and events.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //services -->
+  <!-- support -->
+  <section class="lb-section lb-sand" id="support">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h2>Help &amp; Support</h2>
+          <p>Questions about your order? We are happy to help.</p>
+        </div>
+        <div class="col-lg-8">
+          <ul class="list-unstyled lb-support">
+            <li>
+              <i class="fas fa-headphones" aria-hidden="true"></i>
+              <div>
+                <h3>Phone Orders</h3>
+                <p>Give us a call to place an order or ask about today's menu.</p>
+              </div>
+              <a class="lb-btn lb-btn--outline lb-btn--sm" href="contact.html">Call Us</a>
+            </li>
+            <li>
+              <i class="far fa-comments" aria-hidden="true"></i>
+              <div>
+                <h3>Chat With Us</h3>
+                <p>Send us a message anytime and we will get back to you quickly.</p>
+              </div>
+              <a class="lb-btn lb-btn--outline lb-btn--sm" href="contact.html">Let's Chat</a>
+            </li>
+            <li>
+              <i class="fas fa-question" aria-hidden="true"></i>
+              <div>
+                <h3>Any Questions</h3>
+                <p>Not sure what to order or have a special request? Just ask us.</p>
+              </div>
+              <a class="lb-btn lb-btn--outline lb-btn--sm" href="contact.html">Learn More</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- //support -->
 
-	<!-- stats section -->
-	<div class="middlesection-agile ">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 text-lg-left text-center pt-4">
-					<img src="images/women.png" alt="" class="img-fluid women-style" />
-				</div>
-				<div class="col-lg-6 left-build-wthree aboutright-agilewthree mt-0 py-5">
-					<div class=" py-xl-5 py-lg-3">
-						<h2 class="title-2 text-white mb-sm-5 mb-4">Lunch Box in Numbers</h2>
-						<div class="row mb-xl-5 mb-4">
-							<div class="col-4 w3layouts_stats_left w3_counter_grid">
-								<p class="counter">1680</p>
-								<p class="para-text-w3ls text-light">Meals Served</p>
-							</div>
-							<div class="col-4 w3layouts_stats_left w3_counter_grid2">
-								<p class="counter">1200</p>
-								<p class="para-text-w3ls text-light">Happy Customers</p>
-							</div>
-							<div class="col-4 w3layouts_stats_left w3_counter_grid1">
-								<p class="counter">40</p>
-								<p class="para-text-w3ls text-light">Menu Items</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //stats section -->
+  <!-- footer -->
+  <footer class="lb-footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4">
+          <p class="lb-footer-brand">Lunch Box</p>
+        </div>
+        <div class="col-lg-5">
+          <ul class="lb-footer-nav list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <ul class="lb-social list-unstyled justify-content-lg-end">
+            <li><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+            <li><a href="#" aria-label="VK"><i class="fab fa-vk"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="lb-copy">© 2026 Lunch Box. All Rights Reserved | Design by
+        <a href="https://w3layouts.com/" target="_blank" rel="noopener">W3layouts</a>
+      </p>
+    </div>
+  </footer>
+  <!-- //footer -->
 
-	<!-- new products -->
-	<div class="featured-section py-5" id="products">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="title text-center mb-5">
-				<h3 class="text-dark mb-2">Menu Favourites</h3>
-				<p>Our most loved dishes, made fresh every day.</p>
-			</div>
-			<div class="content-bottom-in">
-				<ul id="flexiselDemo1">
-					<li>
-						<div class="w3l-specilamk">
-							<div class="row">
-								<div class="col-lg-6 product-name-w3l">
-									<h4 class="font-weight-bold">Crispy French Fries</h4>
-									<p class="dont-inti-w3ls mt-4 mb-2">Golden, crunchy and perfectly salted.</p>
-									<p>Freshly cut potatoes fried until crispy on the outside and soft on the inside. Enjoy them on their own, with your favourite sauce, or as a side to any meal.</p>
-									<a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
-								</div>
-								<div class="col-lg-6 speioffer-agile">
-									<img src="images/product1.jpg" alt="" class="img-fluid">
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3l-specilamk">
-							<div class="row">
-								<div class="col-lg-6 product-name-w3l">
-									<h4 class="font-weight-bold">Fried Chicken</h4>
-									<p class="dont-inti-w3ls mt-4 mb-2">Juicy inside, crispy outside.</p>
-									<p>Seasoned chicken fried to golden perfection and served hot. A real crowd favourite, great with fries or chapati.</p>
-									<a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
-								</div>
-								<div class="col-lg-6 speioffer-agile">
-									<img src="images/product2.jpg" alt="" class="img-fluid">
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3l-specilamk">
-							<div class="row">
-								<div class="col-lg-6 product-name-w3l">
-									<h4 class="font-weight-bold">Soft Chapati</h4>
-									<p class="dont-inti-w3ls mt-4 mb-2">Warm, soft and made the traditional way.</p>
-									<p>Layered, freshly cooked chapati that goes perfectly with stew, beans or a hearty side. Simple comfort food at its best.</p>
-									<a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
-								</div>
-								<div class="col-lg-6 speioffer-agile">
-									<img src="images/product3.jpg" alt="" class="img-fluid">
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3l-specilamk">
-							<div class="row">
-								<div class="col-lg-6 product-name-w3l">
-									<h4 class="font-weight-bold">Thick Milkshakes</h4>
-									<p class="dont-inti-w3ls mt-4 mb-2">Cold, creamy and full of flavour.</p>
-									<p>Blended fresh in your favourite flavour. The perfect treat to cool down and finish off your meal.</p>
-									<a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
-								</div>
-								<div class="col-lg-6 speioffer-agile">
-									<img src="images/product4.jpg" alt="" class="img-fluid">
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="w3l-specilamk">
-							<div class="row">
-								<div class="col-lg-6 product-name-w3l">
-									<h4 class="font-weight-bold">Lunch Box Combo</h4>
-									<p class="dont-inti-w3ls mt-4 mb-2">A full meal at a friendly price.</p>
-									<p>Our signature combo brings together a main, a side and a drink in one box. Filling, tasty and ready in minutes.</p>
-									<a href="#order" class="button-3 active mt-5 py-4 scroll">Order Now</a>
-								</div>
-								<div class="col-lg-6 speioffer-agile">
-									<img src="images/product5.jpg" alt="" class="img-fluid">
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<!-- //new products	-->
+  <!-- Js files -->
+  <script src="js/jquery-2.2.3.min.js"></script>
 
-	<!-- news -->
-	<div class="news-agile bg-cream py-5" id="news">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="row">
-				<!-- order form -->
-				<div class="col-lg-4 order-form-w3ls pl-lg-0" id="order">
-					<div class="agile_its_registration bg-white">
-						<h3 class="title-2 mb-3">Place an Order</h3>
-						<p class="mb-4">Choose your meal and we'll have it ready fresh and hot.</p>
-						<form action="#" method="post">
-							<div class="agileits-location form-group">
-								<label>Meal</label>
-								<select required>
-									<option value="">French Fries</option>
-									<option value="1">Fried Chicken</option>
-									<option value="2">Chapati</option>
-									<option value="2">Lunch Box Combo</option>
-								</select>
-								<div class="clear"></div>
-							</div>
-							<div class="agileits-location w3ls-1 form-group">
-								<label>Portion</label>
-								<select required>
-									<option value="">Small</option>
-									<option value="1">Medium</option>
-									<option value="2">Large</option>
-									<option value="2">Family</option>
-								</select>
-								<div class="clear"></div>
-							</div>
-							<div class="agileits-location form-group">
-								<label>Drink</label>
-								<select required>
-									<option value="">Milkshake</option>
-									<option value="">Soda</option>
-									<option value="">Fresh Juice</option>
-									<option value="">Water</option>
-								</select>
-								<div class="clear"></div>
-							</div>
-							<div class="agileits-location w3ls-1 form-group">
-								<label>Extras</label>
-								<select required>
-									<option value="">None</option>
-									<option value="">Extra Sauce</option>
-									<option value="">Extra Fries</option>
-									<option value="">Side Salad</option>
-								</select>
-								<div class="clear"></div>
-							</div>
-							<input type="submit" value="Order" class="agileinfo-order btn" />
-						</form>
-					</div>
-				</div>
-				<!-- //order form -->
-				<!-- news -->
-				<div class="col-lg-8 news-blog mt-lg-0 mt-5">
-					<h3 class="title-2 mb-md-5 mb-4">News & Offers</h3>
-					<div class="row">
-						<div class="col-sm-6 news-grids-agile">
-							<div class="news-top">
-								<a href="single.html">
-									<img src="images/news1.jpg" alt="" class="img-fluid" />
-								</a>
-							</div>
-							<div class="price-bottom bg-white p-4">
-								<a href="single.html" class="text-dark">Oct 1st, 2026</a>
-								<h5 class="mt-3">New combo deals now available every weekday</h5>
-							</div>
-						</div>
-						<div class="col-sm-6 news-grids-agile mt-sm-0 mt-5">
-							<div class="news-top">
-								<a href="single.html">
-									<img src="images/news2.jpg" alt="" class="img-fluid" />
-								</a>
-							</div>
-							<div class="price-bottom bg-white p-4">
-								<a href="single.html" class="text-dark">Oct 15th, 2026</a>
-								<h5 class="mt-3">Fresh milkshake flavours have arrived</h5>
-							</div>
-						</div>
-					</div>
-					<!-- //news -->
-					<!-- faqs -->
-					<div class="faq-w3agile mt-5" id="faqs">
-						<h3 class="title-2 mb-md-5 mb-4">Frequently asked questions</h3>
-						<ul class="faq list-unstyled">
-							<li class="item1">
-								<a href="#" title="click here" class="text-dark border-bottom pb-3">What are your opening hours?
-									<i class="fas fa-plus float-right"></i>
-								</a>
-								<ul class="list-unstyled">
-									<li class="subitem1">
-										<p class="pt-3 pb-4">We are open every day for breakfast, lunch and dinner. Visit our contact page for our exact opening and closing times.</p>
-									</li>
-								</ul>
-							</li>
-							<li class="item2 my-3">
-								<a href="#" title="click here" class="text-dark border-bottom pb-3">Do you offer delivery?
-									<i class="fas fa-plus float-right"></i>
-								</a>
-								<ul class="list-unstyled">
-									<li class="subitem1">
-										<p class="pt-3 pb-4">Yes, we deliver to customers nearby. Call us or place an order through our website and we will bring your meal to your door.</p>
-									</li>
-								</ul>
-							</li>
-							<li class="item3 my-3">
-								<a href="#" title="click here" class="text-dark border-bottom pb-3">Can I place a large order for an event?
-									<i class="fas fa-plus float-right"></i>
-								</a>
-								<ul class="list-unstyled">
-									<li class="subitem1">
-										<p class="pt-3 pb-4">Absolutely. We cater for parties, meetings and office lunches. Contact us a day or two ahead so we can prepare everything fresh for your group.</p>
-									</li>
-								</ul>
-							</li>
-							<li class="item4">
-								<a href="#" title="click here" class="text-dark border-bottom pb-3">What payment methods do you accept?
-									<i class="fas fa-plus float-right"></i>
-								</a>
-								<ul class="list-unstyled">
-									<li class="subitem1">
-										<p class="pt-3">You can pay with cash or mobile money. Ask our team if you need help with payment.</p>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<!-- //faqs -->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- //news -->
+  <!-- flexisel (menu favourites) -->
+  <script src="js/jquery.flexisel.js"></script>
+  <script>
+    $(window).load(function () {
+      $("#flexiselDemo1").flexisel({
+        visibleItems: 1,
+        animationSpeed: 1000,
+        autoPlay: !window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+        autoPlaySpeed: 3000,
+        pauseOnHover: true,
+        enableResponsiveBreakpoints: true
+      });
+    });
+  </script>
 
-	<!-- support -->
-	<div class="serives-agile py-5" id="support">
-		<div class="container py-xl-5 py-lg-3">
-			<div class="title text-center mb-5">
-				<h3 class="text-dark mb-2">Help & Support</h3>
-				<p>Questions about your order? We are happy to help.</p>
-			</div>
-			<div class="row support-bottom text-center">
-				<div class="col-md-4 support-grid">
-					<i class="fas fa-headphones"></i>
-					<h5 class="text-dark text-uppercase mt-4 mb-3">Phone Orders</h5>
-					<p>Give us a call to place an order or ask about today's menu.</p>
-					<button type="button" class="button button-2" onclick="window.location='contact.html'">
-						<span>Call Us</span>
-					</button>
-				</div>
-				<div class="col-md-4 support-grid my-md-0 my-5">
-					<i class="far fa-comments"></i>
-					<h5 class="text-dark text-uppercase mt-4 mb-3">Chat With Us</h5>
-					<p>Send us a message anytime and we will get back to you quickly.</p>
-					<button type="button" class="button button-2 active" onclick="window.location='contact.html'">
-						<span>Let's Chat</span>
-					</button>
-				</div>
-				<div class="col-md-4 support-grid">
-					<i class="fas fa-question"></i>
-					<h5 class="text-dark text-uppercase mt-4 mb-3">Any Questions</h5>
-					<p>Not sure what to order or have a special request? Just ask us.</p>
-					<button type="button" class="button button-2" onclick="window.location='contact.html'">
-						<span>Learn More</span>
-					</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- support -->
+  <!-- faq accordion -->
+  <script>
+    $(function () {
+      var menu_ul = $('.faq > li > ul'),
+        menu_a = $('.faq > li > a');
 
-	<!-- footer -->
-	<footer class="text-center py-sm-4 py-3">
-		<div class="container py-xl-5 py-3">
-			<div class="w3l-footer footer-social-agile mb-4">
-				<ul class="list-unstyled">
-					<li>
-						<a href="#">
-							<i class="fab fa-facebook-f"></i>
-						</a>
-					</li>
-					<li class="mx-1">
-						<a href="#">
-							<i class="fab fa-twitter"></i>
-						</a>
-					</li>
-					<li>
-						<a href="#">
-							<i class="fab fa-dribbble"></i>
-						</a>
-					</li>
-					<li class="ml-1">
-						<a href="#">
-							<i class="fab fa-vk"></i>
-						</a>
-					</li>
-				</ul>
-			</div>
-			<!-- copyright -->
-			<p class="copy-right-grids text-light my-lg-5 my-4 pb-4">© 2026 Lunch Box. All Rights Reserved | Design by
-				<a href="https://w3layouts.com/" target="_blank">W3layouts</a>
-			</p>
-			<!-- //copyright -->
-		</div>
-		<!-- chef -->
-		<img src="images/chef.png" alt="" class="img-fluid chef-style" />
-		<!-- //chef -->
-	</footer>
-	<!-- //footer -->
+      menu_ul.hide();
 
+      menu_a.click(function (e) {
+        e.preventDefault();
+        if (!$(this).hasClass('active')) {
+          menu_a.removeClass('active');
+          menu_ul.filter(':visible').slideUp('normal');
+          $(this).addClass('active').next().stop(true, true).slideDown('normal');
+        } else {
+          $(this).removeClass('active');
+          $(this).next().stop(true, true).slideUp('normal');
+        }
+      });
+    });
+  </script>
 
-	<!-- Js files -->
-	<!-- JavaScript -->
-	<script src="js/jquery-2.2.3.min.js"></script>
-	<!-- Default-JavaScript-File -->
+  <!-- stats -->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.countup.js"></script>
+  <script>
+    $('.counter').countUp();
+  </script>
 
-	<!-- flexisel (for special offers) -->
-	<script src="js/jquery.flexisel.js"></script>
-	<script>
-		$(window).load(function () {
-			$("#flexiselDemo1").flexisel({
-				visibleItems: 1,
-				animationSpeed: 1000,
-				autoPlay: true,
-				autoPlaySpeed: 3000,
-				pauseOnHover: true,
-				enableResponsiveBreakpoints: true,
-				// responsiveBreakpoints: {
-				// 	portrait: {
-				// 		changePoint: 480,
-				// 		visibleItems: 1
-				// 	},
-				// 	landscape: {
-				// 		changePoint: 640,
-				// 		visibleItems: 2
-				// 	},
-				// 	tablet: {
-				// 		changePoint: 768,
-				// 		visibleItems: 2
-				// 	}
-				// }
-			});
+  <!-- banner slider -->
+  <script src="js/image-slider.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/image-slider.css">
 
-		});
-	</script>
-	<!-- //flexisel (for special offers) -->
+  <!-- smooth scrolling -->
+  <script src="js/SmoothScroll.min.js"></script>
+  <script src="js/move-top.js"></script>
+  <script src="js/easing.js"></script>
+  <script src="js/cakes-bakery.js"></script>
 
-	<!-- script for tabs -->
-	<script>
-		$(function () {
-
-			var menu_ul = $('.faq > li > ul'),
-				menu_a = $('.faq > li > a');
-
-			menu_ul.hide();
-
-			menu_a.click(function (e) {
-				e.preventDefault();
-				if (!$(this).hasClass('active')) {
-					menu_a.removeClass('active');
-					menu_ul.filter(':visible').slideUp('normal');
-					$(this).addClass('active').next().stop(true, true).slideDown('normal');
-				} else {
-					$(this).removeClass('active');
-					$(this).next().stop(true, true).slideUp('normal');
-				}
-			});
-
-		});
-	</script>
-	<!-- script for tabs -->
-
-	<!-- stats -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.countup.js"></script>
-	<script>
-		$('.counter').countUp();
-	</script>
-	<!-- //stats -->
-
-	<!-- menu-js -->
-	<script>
-		$('.navicon').on('click', function (e) {
-		  e.preventDefault();
-		  $(this).toggleClass('navicon--active');
-		  $('.toggle').toggleClass('toggle--active');
-		});
-	</script>
-	<!-- //menu-js -->
-
-	<!-- banner slider -->
-	<script src="js/image-slider.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/image-slider.css">
-	<!-- //banner slider -->
-
-	<!-- smooth scrolling -->
-	<script src="js/SmoothScroll.min.js"></script>
-	<!-- move-top -->
-	<script src="js/move-top.js"></script>
-	<!-- easing -->
-	<script src="js/easing.js"></script>
-	<!--  necessary snippets for few javascript files -->
-	<script src="js/cakes-bakery.js"></script>
-
-	<script src="js/bootstrap.js"></script>
-	<!-- Necessary-JavaScript-File-For-Bootstrap -->
-
-	<!-- //Js files -->
-
+  <script src="js/bootstrap.js"></script>
+  <!-- //Js files -->
 </body>
 
 </html>
